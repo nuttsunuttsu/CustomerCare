@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>758A866D-B612-49B3-8EA4-F13818A8F339</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomerCare</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2438D765-4384-4356-B99D-4E6E8E81A8D8</key>
+		<string>https://github.com/nuttsunuttsu/CustomerCare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomerCare.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2438D765-4384-4356-B99D-4E6E8E81A8D8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nuttsunuttsu/CustomerCare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2438D765-4384-4356-B99D-4E6E8E81A8D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2438D765-4384-4356-B99D-4E6E8E81A8D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomerCare</string>
+		</dict>
+	</array>
+</dict>
+</plist>
