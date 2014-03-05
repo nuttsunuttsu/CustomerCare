@@ -23,8 +23,9 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
 
-    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
+    UITabBarController *masterNavigationController = splitViewController.viewControllers[0];
+    UINavigationController * navi = masterNavigationController.viewControllers[0];
+    MasterViewController *controller = (MasterViewController *)navi.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
