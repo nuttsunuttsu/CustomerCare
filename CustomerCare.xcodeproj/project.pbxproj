@@ -15,7 +15,6 @@
 		280E135C18C7554800B318AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E135B18C7554800B318AB /* main.m */; };
 		280E136018C7554900B318AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E135F18C7554900B318AB /* AppDelegate.m */; };
 		280E136318C7554900B318AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280E136118C7554900B318AB /* Main.storyboard */; };
-		280E136618C7554B00B318AB /* CustomerCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 280E136418C7554B00B318AB /* CustomerCare.xcdatamodeld */; };
 		280E136918C7554B00B318AB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E136818C7554B00B318AB /* MasterViewController.m */; };
 		280E136C18C7554B00B318AB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E136B18C7554B00B318AB /* DetailViewController.m */; };
 		280E136E18C7554B00B318AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280E136D18C7554B00B318AB /* Images.xcassets */; };
@@ -25,6 +24,36 @@
 		280E137818C7554D00B318AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E135318C7554700B318AB /* CoreData.framework */; };
 		280E138018C7554D00B318AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280E137E18C7554D00B318AB /* InfoPlist.strings */; };
 		280E138218C7554D00B318AB /* CustomerCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E138118C7554D00B318AB /* CustomerCareTests.m */; };
+		2892DB8218D1FF6C00603691 /* CustomerCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2892DB8018D1FF6C00603691 /* CustomerCare.xcdatamodeld */; };
+		2892DB8518D2015C00603691 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2892DB8418D2015C00603691 /* Customer.m */; };
+		2892DB8818D2015D00603691 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2892DB8718D2015C00603691 /* Reminder.m */; };
+		2892DB8B18D2015D00603691 /* Policy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2892DB8A18D2015D00603691 /* Policy.m */; };
+		2892DB9B18D206B500603691 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9018D206B500603691 /* settings.png */; };
+		2892DB9C18D206B500603691 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9118D206B500603691 /* user.png */; };
+		2892DB9D18D206B500603691 /* today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9218D206B500603691 /* today@2x.png */; };
+		2892DB9E18D206B500603691 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9318D206B500603691 /* map@2x.png */; };
+		2892DB9F18D206B500603691 /* today.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9418D206B500603691 /* today.png */; };
+		2892DBA018D206B500603691 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9518D206B500603691 /* map.png */; };
+		2892DBA118D206B500603691 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9618D206B500603691 /* calendar.png */; };
+		2892DBA218D206B500603691 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9718D206B500603691 /* white.png */; };
+		2892DBA318D206B500603691 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9818D206B500603691 /* calendar@2x.png */; };
+		2892DBA418D206B500603691 /* group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9918D206B500603691 /* group@2x.png */; };
+		2892DBA518D206B500603691 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DB9A18D206B500603691 /* group.png */; };
+		2892DBA918D2079500603691 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DBA818D2079500603691 /* setting@2x.png */; };
+		2892DBAD18D20D6700603691 /* AddCustomer_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2892DBAB18D20D6700603691 /* AddCustomer_DetailViewController.m */; };
+		2892DBAE18D20D6700603691 /* AddCustomer_DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2892DBAC18D20D6700603691 /* AddCustomer_DetailViewController.xib */; };
+		2892DBB118D20F3900603691 /* person@512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2892DBB018D20F3900603691 /* person@512.png */; };
+		2892DBB418D2121600603691 /* AddCustomer_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2892DBB318D2121600603691 /* AddCustomer_MasterViewController.m */; };
+		2896E09E18D6E52A00D0E381 /* DetailCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896E09C18D6E52A00D0E381 /* DetailCustomerViewController.m */; };
+		2896E09F18D6E52A00D0E381 /* DetailCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2896E09D18D6E52A00D0E381 /* DetailCustomerViewController.xib */; };
+		2896E0A318D6EDA800D0E381 /* AddPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896E0A118D6EDA800D0E381 /* AddPolicyViewController.m */; };
+		2896E0A418D6EDA800D0E381 /* AddPolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2896E0A218D6EDA800D0E381 /* AddPolicyViewController.xib */; };
+		2896E0AB18D6F49800D0E381 /* DetailPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896E0A918D6F49800D0E381 /* DetailPolicyViewController.m */; };
+		2896E0AC18D6F49800D0E381 /* DetailPolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2896E0AA18D6F49800D0E381 /* DetailPolicyViewController.xib */; };
+		28B798A318D83F58004D4585 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B798A118D83F58004D4585 /* AddReminderViewController.m */; };
+		28B798A418D83F58004D4585 /* AddReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B798A218D83F58004D4585 /* AddReminderViewController.xib */; };
+		28B798A918D8439C004D4585 /* DetailReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B798A718D8439C004D4585 /* DetailReminderViewController.m */; };
+		28B798AA18D8439C004D4585 /* DetailReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B798A818D8439C004D4585 /* DetailReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +79,6 @@
 		280E135E18C7554800B318AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		280E135F18C7554900B318AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		280E136218C7554900B318AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		280E136518C7554B00B318AB /* CustomerCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomerCare.xcdatamodel; sourceTree = "<group>"; };
 		280E136718C7554B00B318AB /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		280E136818C7554B00B318AB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		280E136A18C7554B00B318AB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -61,6 +89,46 @@
 		280E137D18C7554D00B318AB /* CustomerCareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomerCareTests-Info.plist"; sourceTree = "<group>"; };
 		280E137F18C7554D00B318AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		280E138118C7554D00B318AB /* CustomerCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerCareTests.m; sourceTree = "<group>"; };
+		2892DB8118D1FF6C00603691 /* CustomerCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomerCare.xcdatamodel; sourceTree = "<group>"; };
+		2892DB8318D2015C00603691 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		2892DB8418D2015C00603691 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		2892DB8618D2015C00603691 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		2892DB8718D2015C00603691 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		2892DB8918D2015D00603691 /* Policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Policy.h; sourceTree = "<group>"; };
+		2892DB8A18D2015D00603691 /* Policy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Policy.m; sourceTree = "<group>"; };
+		2892DB9018D206B500603691 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		2892DB9118D206B500603691 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		2892DB9218D206B500603691 /* today@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today@2x.png"; sourceTree = "<group>"; };
+		2892DB9318D206B500603691 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		2892DB9418D206B500603691 /* today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today.png; sourceTree = "<group>"; };
+		2892DB9518D206B500603691 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		2892DB9618D206B500603691 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		2892DB9718D206B500603691 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		2892DB9818D206B500603691 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		2892DB9918D206B500603691 /* group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group@2x.png"; sourceTree = "<group>"; };
+		2892DB9A18D206B500603691 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		2892DBA818D2079500603691 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@2x.png"; sourceTree = "<group>"; };
+		2892DBAA18D20D6700603691 /* AddCustomer_DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomer_DetailViewController.h; sourceTree = "<group>"; };
+		2892DBAB18D20D6700603691 /* AddCustomer_DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomer_DetailViewController.m; sourceTree = "<group>"; };
+		2892DBAC18D20D6700603691 /* AddCustomer_DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCustomer_DetailViewController.xib; sourceTree = "<group>"; };
+		2892DBB018D20F3900603691 /* person@512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@512.png"; sourceTree = "<group>"; };
+		2892DBB218D2121600603691 /* AddCustomer_MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomer_MasterViewController.h; sourceTree = "<group>"; };
+		2892DBB318D2121600603691 /* AddCustomer_MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomer_MasterViewController.m; sourceTree = "<group>"; };
+		2896E09B18D6E52A00D0E381 /* DetailCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCustomerViewController.h; sourceTree = "<group>"; };
+		2896E09C18D6E52A00D0E381 /* DetailCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCustomerViewController.m; sourceTree = "<group>"; };
+		2896E09D18D6E52A00D0E381 /* DetailCustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCustomerViewController.xib; sourceTree = "<group>"; };
+		2896E0A018D6EDA800D0E381 /* AddPolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPolicyViewController.h; sourceTree = "<group>"; };
+		2896E0A118D6EDA800D0E381 /* AddPolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPolicyViewController.m; sourceTree = "<group>"; };
+		2896E0A218D6EDA800D0E381 /* AddPolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPolicyViewController.xib; sourceTree = "<group>"; };
+		2896E0A818D6F49800D0E381 /* DetailPolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPolicyViewController.h; sourceTree = "<group>"; };
+		2896E0A918D6F49800D0E381 /* DetailPolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPolicyViewController.m; sourceTree = "<group>"; };
+		2896E0AA18D6F49800D0E381 /* DetailPolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPolicyViewController.xib; sourceTree = "<group>"; };
+		28B798A018D83F58004D4585 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		28B798A118D83F58004D4585 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		28B798A218D83F58004D4585 /* AddReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddReminderViewController.xib; sourceTree = "<group>"; };
+		28B798A618D8439C004D4585 /* DetailReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailReminderViewController.h; sourceTree = "<group>"; };
+		28B798A718D8439C004D4585 /* DetailReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailReminderViewController.m; sourceTree = "<group>"; };
+		28B798A818D8439C004D4585 /* DetailReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +194,16 @@
 				280E135E18C7554800B318AB /* AppDelegate.h */,
 				280E135F18C7554900B318AB /* AppDelegate.m */,
 				280E136118C7554900B318AB /* Main.storyboard */,
+				2892DB8C18D2016400603691 /* Data */,
 				280E136718C7554B00B318AB /* MasterViewController.h */,
 				280E136818C7554B00B318AB /* MasterViewController.m */,
 				280E136A18C7554B00B318AB /* DetailViewController.h */,
 				280E136B18C7554B00B318AB /* DetailViewController.m */,
+				28B798AD18D8501A004D4585 /* CUSTOMER */,
+				28B798AB18D84D7E004D4585 /* POLICY */,
+				28B798AC18D84FFD004D4585 /* REMINDER */,
+				2892DB8D18D205FC00603691 /* picture */,
 				280E136D18C7554B00B318AB /* Images.xcassets */,
-				280E136418C7554B00B318AB /* CustomerCare.xcdatamodeld */,
 				280E135618C7554800B318AB /* Supporting Files */,
 			);
 			path = CustomerCare;
@@ -164,6 +236,129 @@
 				280E137E18C7554D00B318AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2892DB8C18D2016400603691 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2892DB8018D1FF6C00603691 /* CustomerCare.xcdatamodeld */,
+				2892DB8318D2015C00603691 /* Customer.h */,
+				2892DB8418D2015C00603691 /* Customer.m */,
+				2892DB8918D2015D00603691 /* Policy.h */,
+				2892DB8A18D2015D00603691 /* Policy.m */,
+				2892DB8618D2015C00603691 /* Reminder.h */,
+				2892DB8718D2015C00603691 /* Reminder.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2892DB8D18D205FC00603691 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				2892DBB018D20F3900603691 /* person@512.png */,
+				2892DB9018D206B500603691 /* settings.png */,
+				2892DB9118D206B500603691 /* user.png */,
+				2892DB9218D206B500603691 /* today@2x.png */,
+				2892DB9318D206B500603691 /* map@2x.png */,
+				2892DB9418D206B500603691 /* today.png */,
+				2892DB9518D206B500603691 /* map.png */,
+				2892DB9618D206B500603691 /* calendar.png */,
+				2892DB9718D206B500603691 /* white.png */,
+				2892DB9818D206B500603691 /* calendar@2x.png */,
+				2892DB9918D206B500603691 /* group@2x.png */,
+				2892DB9A18D206B500603691 /* group.png */,
+				2892DBA818D2079500603691 /* setting@2x.png */,
+			);
+			name = picture;
+			sourceTree = "<group>";
+		};
+		2892DBAF18D20D6D00603691 /* AddcusView */ = {
+			isa = PBXGroup;
+			children = (
+				2892DBAA18D20D6700603691 /* AddCustomer_DetailViewController.h */,
+				2892DBAB18D20D6700603691 /* AddCustomer_DetailViewController.m */,
+				2892DBAC18D20D6700603691 /* AddCustomer_DetailViewController.xib */,
+			);
+			name = AddcusView;
+			sourceTree = "<group>";
+		};
+		2896E0A518D6EDB200D0E381 /* AddPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				2896E0A018D6EDA800D0E381 /* AddPolicyViewController.h */,
+				2896E0A118D6EDA800D0E381 /* AddPolicyViewController.m */,
+				2896E0A218D6EDA800D0E381 /* AddPolicyViewController.xib */,
+			);
+			name = AddPolicy;
+			sourceTree = "<group>";
+		};
+		2896E0A618D6EDCB00D0E381 /* DetailCusView */ = {
+			isa = PBXGroup;
+			children = (
+				2896E09B18D6E52A00D0E381 /* DetailCustomerViewController.h */,
+				2896E09C18D6E52A00D0E381 /* DetailCustomerViewController.m */,
+				2896E09D18D6E52A00D0E381 /* DetailCustomerViewController.xib */,
+			);
+			name = DetailCusView;
+			sourceTree = "<group>";
+		};
+		2896E0A718D6F45E00D0E381 /* DetailPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				2896E0A818D6F49800D0E381 /* DetailPolicyViewController.h */,
+				2896E0A918D6F49800D0E381 /* DetailPolicyViewController.m */,
+				2896E0AA18D6F49800D0E381 /* DetailPolicyViewController.xib */,
+			);
+			name = DetailPolicy;
+			sourceTree = "<group>";
+		};
+		28B7989F18D83F15004D4585 /* AddReminder */ = {
+			isa = PBXGroup;
+			children = (
+				28B798A018D83F58004D4585 /* AddReminderViewController.h */,
+				28B798A118D83F58004D4585 /* AddReminderViewController.m */,
+				28B798A218D83F58004D4585 /* AddReminderViewController.xib */,
+			);
+			name = AddReminder;
+			sourceTree = "<group>";
+		};
+		28B798A518D8435B004D4585 /* DetailReminder */ = {
+			isa = PBXGroup;
+			children = (
+				28B798A618D8439C004D4585 /* DetailReminderViewController.h */,
+				28B798A718D8439C004D4585 /* DetailReminderViewController.m */,
+				28B798A818D8439C004D4585 /* DetailReminderViewController.xib */,
+			);
+			name = DetailReminder;
+			sourceTree = "<group>";
+		};
+		28B798AB18D84D7E004D4585 /* POLICY */ = {
+			isa = PBXGroup;
+			children = (
+				2896E0A518D6EDB200D0E381 /* AddPolicy */,
+				2896E0A718D6F45E00D0E381 /* DetailPolicy */,
+			);
+			name = POLICY;
+			sourceTree = "<group>";
+		};
+		28B798AC18D84FFD004D4585 /* REMINDER */ = {
+			isa = PBXGroup;
+			children = (
+				28B7989F18D83F15004D4585 /* AddReminder */,
+				28B798A518D8435B004D4585 /* DetailReminder */,
+			);
+			name = REMINDER;
+			sourceTree = "<group>";
+		};
+		28B798AD18D8501A004D4585 /* CUSTOMER */ = {
+			isa = PBXGroup;
+			children = (
+				2892DBB218D2121600603691 /* AddCustomer_MasterViewController.h */,
+				2892DBB318D2121600603691 /* AddCustomer_MasterViewController.m */,
+				2892DBAF18D20D6D00603691 /* AddcusView */,
+				2896E0A618D6EDCB00D0E381 /* DetailCusView */,
+			);
+			name = CUSTOMER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +405,7 @@
 		280E134218C7554600B318AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = NUTTSU;
 				TargetAttributes = {
 					280E137218C7554D00B318AB = {
@@ -243,8 +438,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				280E136E18C7554B00B318AB /* Images.xcassets in Resources */,
+				2896E0AC18D6F49800D0E381 /* DetailPolicyViewController.xib in Resources */,
+				2896E0A418D6EDA800D0E381 /* AddPolicyViewController.xib in Resources */,
+				2892DBAE18D20D6700603691 /* AddCustomer_DetailViewController.xib in Resources */,
+				2892DBA918D2079500603691 /* setting@2x.png in Resources */,
+				28B798A418D83F58004D4585 /* AddReminderViewController.xib in Resources */,
+				2892DB9D18D206B500603691 /* today@2x.png in Resources */,
 				280E135A18C7554800B318AB /* InfoPlist.strings in Resources */,
+				2892DBB118D20F3900603691 /* person@512.png in Resources */,
+				2892DBA218D206B500603691 /* white.png in Resources */,
+				2892DBA518D206B500603691 /* group.png in Resources */,
+				2892DB9C18D206B500603691 /* user.png in Resources */,
 				280E136318C7554900B318AB /* Main.storyboard in Resources */,
+				2892DB9F18D206B500603691 /* today.png in Resources */,
+				28B798AA18D8439C004D4585 /* DetailReminderViewController.xib in Resources */,
+				2892DBA418D206B500603691 /* group@2x.png in Resources */,
+				2892DBA118D206B500603691 /* calendar.png in Resources */,
+				2892DB9E18D206B500603691 /* map@2x.png in Resources */,
+				2892DB9B18D206B500603691 /* settings.png in Resources */,
+				2892DBA018D206B500603691 /* map.png in Resources */,
+				2896E09F18D6E52A00D0E381 /* DetailCustomerViewController.xib in Resources */,
+				2892DBA318D206B500603691 /* calendar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +477,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B798A318D83F58004D4585 /* AddReminderViewController.m in Sources */,
+				2892DB8218D1FF6C00603691 /* CustomerCare.xcdatamodeld in Sources */,
+				2892DB8518D2015C00603691 /* Customer.m in Sources */,
+				2896E0AB18D6F49800D0E381 /* DetailPolicyViewController.m in Sources */,
 				280E136C18C7554B00B318AB /* DetailViewController.m in Sources */,
+				2892DB8B18D2015D00603691 /* Policy.m in Sources */,
+				2896E09E18D6E52A00D0E381 /* DetailCustomerViewController.m in Sources */,
 				280E136918C7554B00B318AB /* MasterViewController.m in Sources */,
-				280E136618C7554B00B318AB /* CustomerCare.xcdatamodeld in Sources */,
+				2892DBAD18D20D6700603691 /* AddCustomer_DetailViewController.m in Sources */,
+				2892DBB418D2121600603691 /* AddCustomer_MasterViewController.m in Sources */,
+				2896E0A318D6EDA800D0E381 /* AddPolicyViewController.m in Sources */,
 				280E136018C7554900B318AB /* AppDelegate.m in Sources */,
+				28B798A918D8439C004D4585 /* DetailReminderViewController.m in Sources */,
 				280E135C18C7554800B318AB /* main.m in Sources */,
+				2892DB8818D2015D00603691 /* Reminder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +545,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -361,7 +584,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -420,7 +642,6 @@
 		280E138918C7554D00B318AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomerCare.app/CustomerCare";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -443,7 +664,6 @@
 		280E138A18C7554D00B318AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomerCare.app/CustomerCare";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -478,6 +698,7 @@
 				280E138718C7554D00B318AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		280E138818C7554D00B318AB /* Build configuration list for PBXNativeTarget "CustomerCareTests" */ = {
 			isa = XCConfigurationList;
@@ -486,16 +707,17 @@
 				280E138A18C7554D00B318AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		280E136418C7554B00B318AB /* CustomerCare.xcdatamodeld */ = {
+		2892DB8018D1FF6C00603691 /* CustomerCare.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				280E136518C7554B00B318AB /* CustomerCare.xcdatamodel */,
+				2892DB8118D1FF6C00603691 /* CustomerCare.xcdatamodel */,
 			);
-			currentVersion = 280E136518C7554B00B318AB /* CustomerCare.xcdatamodel */;
+			currentVersion = 2892DB8118D1FF6C00603691 /* CustomerCare.xcdatamodel */;
 			path = CustomerCare.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
